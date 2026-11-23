@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn>=0.30.0
+sqlalchemy>=2.0.30
+pymysql>=1.1.0
+cryptography>=42.0.0
+pyjwt>=2.8.0
+python-multipart>=0.0.9
+langchain>=0.3.20
+langchain-openai>=0.3.0
+langchain-chroma>=0.2.0
+chromadb>=0.5.20
+langgraph>=0.2.60
+langchain-text-splitters>=0.3.0
+pypdf>=5.0.0
+python-docx>=1.1.0
