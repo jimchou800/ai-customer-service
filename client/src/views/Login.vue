@@ -65,14 +65,15 @@ async function submit() {
 
 <style scoped>
 .auth-page {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
   min-height: 100vh;
   background: #f6f7fb;
 }
 
 .auth-right {
-  width: 640px;
-  flex: 0 0 640px;
+  width: auto;
+  min-width: 0;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -84,7 +85,7 @@ async function submit() {
 }
 
 .auth-card {
-  width: 480px;
+  width: min(480px, calc(100% - 48px));
   padding: 42px 0 32px;
   border-radius: 28px;
   background: rgba(255, 255, 255, 0.92);
@@ -125,7 +126,7 @@ async function submit() {
 }
 
 .auth-form {
-  width: 480px;
+  width: 100%;
   padding: 0 28px;
   box-sizing: border-box;
 }

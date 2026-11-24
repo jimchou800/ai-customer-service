@@ -42,7 +42,7 @@
 
 h1 {
   margin: 0 0 18px;
-  font-size: 60px;
+  font-size: clamp(32px, 3.125vw, 60px);
   line-height: 1.22;
   font-weight: 800;
   background: linear-gradient(100deg, #fff36b 0%, #8dfff3 48%, #ff8ad8 100%);
@@ -58,7 +58,7 @@ h1 {
   align-items: center;
   column-gap: 14px;
   margin-top: 16px;
-  font-size: 30px;
+  font-size: clamp(18px, 1.5625vw, 30px);
   font-weight: 700;
   line-height: 1.35;
   text-shadow: 0 3px 12px rgba(40, 0, 80, 0.45);
